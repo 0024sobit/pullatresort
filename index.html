@@ -15,7 +15,7 @@
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css"> 
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/themify-icons.css">
     <link rel="stylesheet" href="css/nice-select.css">
@@ -50,10 +50,10 @@
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2">
+                        <div class="col-xl-2 col-lg-2"> 
                             <div class="logo-img">
                                 <a href="index.html">
-                                    <img src="img/WhatsApp Image 2025-11-20 at 5.15.53 PM (1).jpeg" style="width: 50px; height: 0px;" alt="">
+                                    <img src="img/WhatsApp Image 2025-11-20 at 5.15.53 PM (1).jpeg" style="width: 40px; height: 40px;" alt="">
                                 </a>
                             </div>
                         </div>
@@ -79,8 +79,8 @@
                                     </ul>
                                 </div>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a  href="contact.html">Book A Room</a>
-                                </div>
+                                    <a class="popup-with-form" href="#test-form">Book A Room</a>  
+                                </div> 
                             </div>
                         </div>
                         <div class="col-12">
@@ -250,7 +250,7 @@
             </a>
         </div> 
     </div>
-    <!-- video_area_end -->  
+    <!-- video_area_end -->   
 
     <!-- about_area_start -->
     <!-- <div class="about_area">  
@@ -282,7 +282,7 @@
             </div>
         </div>
     </div> -->
-    <!-- about_area_end -->
+    <!-- about_area_end --> 
 
     <!-- features_room_startt -->
     <div class="features_room">
@@ -349,9 +349,9 @@
     <!-- features_room_end -->
 
     <!-- forQuery_start -->
-    <div class="forQuery">
+    <div class="forQuery"> 
         <div class="container">
-            <div class="row">
+            <div class="row"> 
                 <div class="col-xl-10 offset-xl-1 col-md-12">
                     <div class="Query_border">
                         <div class="row align-items-center justify-content-center">
@@ -419,7 +419,7 @@
     <!-- instragram_area_end -->
 
     <!-- footer -->
-    <footer class="footer">
+    <footer class="footer"> 
         <div class="footer_top">
             <div class="container">
                 <div class="row">
@@ -465,7 +465,7 @@
                             </form>
                             <p class="newsletter_text">Subscribe newsletter to get updates</p>
                         </div>
-                    </div> -->
+                    </div> --> 
                 </div>
             </div>
         </div>
@@ -508,52 +508,57 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- link that opens popup -->
 
     <!-- form itself end-->
-        <!-- <form id="test-form" class="white-popup-block mfp-hide">
-                <div class="popup_box ">
-                        <div class="popup_inner">
-                            <h3>Check Availability</h3>
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <input id="datepicker" placeholder="Check in date">
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <input id="datepicker2" placeholder="Check out date">
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <select class="form-select wide" id="default-select" class="">
-                                            <option data-display="Adult">1</option>
-                                            <option value="1">2</option>
-                                            <option value="2">3</option>
-                                            <option value="3">4</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <select class="form-select wide" id="default-select" class="">
-                                            <option data-display="Children">1</option>
-                                            <option value="1">2</option>
-                                            <option value="2">3</option>
-                                            <option value="3">4</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-xl-12">
-                                        <select class="form-select wide" id="default-select" class="">
-                                            <option data-display="Room type">Room type</option>
-                                            <option value="1">Laxaries Rooms</option>
-                                            <option value="2">Deluxe Room</option>
-                                            <option value="3">Signature Room</option>
-                                            <option value="4">Couple Room</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-xl-12">
-                                        <button type="submit" class="boxed-btn3">Check Availability</button>
-                                    </div>
-                                </div>
-                            </form>
+    <div id="test-form" class="white-popup-block mfp-hide">
+        <div class="popup_box ">
+                <div class="popup_inner">
+                    <h3>Check Availability</h3>
+                    <form id="availabilityForm">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <p>Check in date :</p>
+                                <input id="checkin" placeholder=" dd/mm/yy"> 
+                            </div>
+                            <div class="col-xl-6">
+                                <p>Check out date</p>
+                                <input id="checkout" placeholder=" dd/mm/yy">
+                            </div>
+                            <div class="col-xl-6">
+                               <p>Adults :</p>
+                                <select class="form-select wide" id="adults" class="">
+                                    <option data-display="Adult">1</option>
+                                    <option value="1">2</option>
+                                    <option value="2">3</option>
+                                    <option value="3">4</option>
+                                </select>
+                            </div>
+                            <div class="col-xl-6">
+                                <p>Kids :</p>
+                                <select class="form-select wide" id="children" class="">
+                                    <option data-display="Children">1</option>
+                                    <option value="1">2</option>
+                                    <option value="2">3</option>
+                                    <option value="3">4</option>
+                                </select>
+                            </div>
+                            <div class="col-xl-12"><br>
+                                <p>Select Room Type :</p>
+                                <select class="form-select wide" id="roomtype" class="">
+                                    <option data-display="Room type">Room type</option>
+                                    <option value="Laxaries Rooms">Laxaries Rooms</option>
+                                    <option value="Deluxe Room">Deluxe Room</option>
+                                    <option value="Signature Room">Signature Room</option>
+                                    <option value="Couple Room">Couple Room</option>
+                                </select>
+                            </div>
+                            <div class="col-xl-12">
+                                <button type="submit" class="boxed-btn3">Check Availability</button> 
+                            </div>
                         </div>
-                    </div>
-            </form> -->
-    <!-- form itself end -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    <!-- form itself end
 
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
@@ -593,11 +598,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         $('#datepicker2').datepicker({
             iconsLibrary: 'fontawesome',
             icons: {
-             rightIcon: '<span class="fa fa-caret-down"></span>'
+             rightIcon: '<span class="fa fa-caret-down"></span>'  
          }
 
         });
     </script>
+    <script src="js/whatsapp.js"></script> 
 
 
 

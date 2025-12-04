@@ -73,14 +73,14 @@
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i class="fa fa-instagram"></i>
+                                                <i class="fa fa-instagram"></i> 
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="book_btn d-none d-lg-block">
-                                    <a class="" href="contact.html">Book A Room</a>
-                                </div>
+                               <div class="book_btn d-none d-lg-block">
+                                    <a class="popup-with-form" href="#test-form">Book A Room</a>  
+                                </div> 
                             </div>
                         </div>
                         <div class="col-12">
@@ -116,7 +116,7 @@
                 <div class="col-xl-7 col-lg-7">
                     <div class="about_thumb d-flex">
                         <div class="img_1">
-                            <img src="img/about/image.png" alt="">
+                            <img src="img/about/image.png" alt=""> 
                         </div>
                         <div class="img_2">
                             <img src="img/about/image.png" alt="">  
@@ -319,7 +319,60 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </footer>
-    <!-- footer_end -->
+    <!-- footer_end --> 
+
+
+    <div id="test-form" class="white-popup-block mfp-hide">
+        <div class="popup_box ">
+                <div class="popup_inner">
+                    <h3>Check Availability</h3>
+                    <form id="availabilityForm">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <p>Check in date :</p>
+                                <input id="checkin" placeholder=" dd/mm/yy">
+                            </div>
+                            <div class="col-xl-6">
+                                <p>Check out date</p>
+                                <input id="checkout" placeholder=" dd/mm/yy">
+                            </div>
+                            <div class="col-xl-6">
+                               <p>Adults :</p>
+                                <select class="form-select wide" id="adults" class="">
+                                    <option data-display="Adult">1</option>
+                                    <option value="1">2</option>
+                                    <option value="2">3</option>
+                                    <option value="3">4</option>
+                                </select>
+                            </div>
+                            <div class="col-xl-6">
+                                <p>Kids :</p>
+                                <select class="form-select wide" id="children" class="">
+                                    <option data-display="Children">1</option>
+                                    <option value="1">2</option>
+                                    <option value="2">3</option>
+                                    <option value="3">4</option>
+                                </select>
+                            </div>
+                            <div class="col-xl-12"><br>
+                                <p>Select Room Type :</p>
+                                <select class="form-select wide" id="roomtype" class="">
+                                    <option data-display="Room type">Room type</option>
+                                    <option value="Laxaries Rooms">Laxaries Rooms</option>
+                                    <option value="Deluxe Room">Deluxe Room</option>
+                                    <option value="Signature Room">Signature Room</option>
+                                    <option value="Couple Room">Couple Room</option>
+                                </select>
+                            </div>
+                            <div class="col-xl-12">
+                                <button type="submit" class="boxed-btn3">Check Availability</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
 
 
 
@@ -366,6 +419,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
         });
     </script>
+    <script src="js/whatsapp.js"></script> 
 
 
 </body>

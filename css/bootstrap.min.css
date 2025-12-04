@@ -6560,12 +6560,12 @@ button.bg-dark:hover {
 }
 
 .clearfix::after {
-    display: block;
+    display: block;  
     clear: both;
     content: ""
-}
+}  
 
-.d-none {
+.d-none { 
     display: none!important
 }
 

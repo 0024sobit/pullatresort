@@ -55,7 +55,7 @@ $(document).ready(function(){
                 }
             },
             submitHandler: function(form) {
-                $(form).ajaxSubmit({
+                $(form).ajaxSubmit({ 
                     type:"POST",
                     data: $(form).serialize(),
                     url:"contact_process.php",
@@ -65,7 +65,7 @@ $(document).ready(function(){
                             $(this).find(':input').attr('disabled', 'disabled');
                             $(this).find('label').css('cursor','default');
                             $('#success').fadeIn()
-                            $('.modal').modal('hide');
+                            $('.modal').modal('hide'); 
 		                	$('#success').modal('show');
                         })
                     },

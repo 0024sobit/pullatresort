@@ -450,7 +450,7 @@ h3 {
     margin-right: 0px;
   }
 }
-.slicknav_nav .slicknav_arrow {
+.slicknav_nav .slicknav_arrow { 
   float: right;
   font-size: 22px;
   position: relative;
@@ -467,7 +467,7 @@ h3 {
   top: 5px;
   padding: 5px;
   right: 5px;
-  margin-top: -5px;
+  margin-top: 0px;
   top: -31px;
 }
 .slicknav_btn {
@@ -481,7 +481,7 @@ h3 {
   top: 5px;
   padding: 5px;
   right: 0;
-  margin-top: -5px; 
+  margin-top: 0px; 
   top: -30px;
 }
 .header-area {
@@ -599,7 +599,7 @@ h3 {
 }
 .header-area .main-header-area .main-menu {
   text-align: center;
-  padding: 12px 0;
+  padding: 12px 0; 
 }
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
@@ -895,8 +895,13 @@ h3 {
   background-image: url(../img/rooms/suitroom.png);
 }
 .about_info_area {
-  padding-left: 387px;
+  /* padding-left: 387px; */
   margin-top: 50px;
+}
+@media (min-width: 1440px)  {
+  .about_info_area{
+    padding: 0 200px; 
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .about_info_area {

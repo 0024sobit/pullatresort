@@ -62,7 +62,7 @@
                   <a href="index.html">
                     <img
                       src="img/WhatsApp Image 2025-11-20 at 5.15.53 PM (1).jpeg"
-                      style="width: 50px; height: 50px"
+                      style="width: 40px; height: 40px"
                       alt=""
                     />
                   </a>
@@ -1878,20 +1878,23 @@
     <!-- footer_end -->
 
     <!-- form itself end-->
-    <form id="test-form" class="white-popup-block mfp-hide">
+    <div id="test-form" class="white-popup-block mfp-hide">
       <div class="popup_box">
         <div class="popup_inner">
           <h3>Check Availability</h3>
-          <form action="#">
+          <form id="availabilityForm">
             <div class="row">
               <div class="col-xl-6">
-                <input id="datepicker" placeholder="Check in date" />
+                <p>Check in date :</p>
+                <input id="checkin" placeholder=" dd/mm/yy" />
               </div>
               <div class="col-xl-6">
-                <input id="datepicker2" placeholder="Check out date" />
+                <p>Check out date</p>
+                <input id="checkout" placeholder=" dd/mm/yy" />
               </div>
               <div class="col-xl-6">
-                <select class="form-select wide" id="default-select" class="">
+                <p>Adults :</p>
+                <select class="form-select wide" id="adults" class="">
                   <option data-display="Adult">1</option>
                   <option value="1">2</option>
                   <option value="2">3</option>
@@ -1899,7 +1902,8 @@
                 </select>
               </div>
               <div class="col-xl-6">
-                <select class="form-select wide" id="default-select" class="">
+                <p>Kids :</p>
+                <select class="form-select wide" id="children" class="">
                   <option data-display="Children">1</option>
                   <option value="1">2</option>
                   <option value="2">3</option>
@@ -1907,9 +1911,14 @@
                 </select>
               </div>
               <div class="col-xl-12">
-                <select class="form-select wide" id="default-select" class="">
+                <br />
+                <p>Select Room Type :</p>
+                <select class="form-select wide" id="roomtype" class="">
                   <option data-display="Room type">Room type</option>
-                  <option value="1">suite Rooms</option>
+                  <option value="Laxaries Rooms">Laxaries Rooms</option>
+                  <option value="Deluxe Room">Deluxe Room</option>
+                  <option value="Signature Room">Signature Room</option>
+                  <option value="Couple Room">Couple Room</option>
                 </select>
               </div>
               <div class="col-xl-12">
@@ -1921,7 +1930,8 @@
           </form>
         </div>
       </div>
-    </form>
+    </div>
+
     <!-- form itself end -->
 
     <!-- JS here -->
@@ -1966,5 +1976,6 @@
         },
       });
     </script>
+    <script src="js/whatsapp.js"></script>
   </body>
 </html>

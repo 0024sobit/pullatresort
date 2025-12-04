@@ -6,13 +6,13 @@
 .slicknav_btn {
   position: relative;
   display: block;
-  vertical-align: middle;
+  vertical-align: middle; 
   float: right;
   padding: 0.438em 0.625em 0.438em 0.625em;
   line-height: 1.125em;
   cursor: pointer; }
   .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
-    margin-top: 0.188em; }
+    margin-top: 0.188em; } 
 
 .slicknav_menu {
   *zoom: 1; }
@@ -57,22 +57,22 @@
     margin: 0 0 0 0.4em; }
   .slicknav_nav .slicknav_item {
     cursor: pointer; }
-    .slicknav_nav .slicknav_item a {
+    .slicknav_nav .slicknav_item a { 
       display: inline; }
   .slicknav_nav .slicknav_row {
     display: block; }
   .slicknav_nav a {
     display: block; }
-  .slicknav_nav .slicknav_parent-link a {
+  .slicknav_nav .slicknav_parent-link a {  
     display: inline; }
 
 .slicknav_brand {
   float: left; }
 
-.slicknav_menu {
+.slicknav_menu { 
   font-size: 16px;
   box-sizing: border-box;
-  background: #4c4c4c;
+  background: #4c4c4c; 
   padding: 5px; }
   .slicknav_menu * {
     box-sizing: border-box; }
