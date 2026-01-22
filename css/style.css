@@ -894,8 +894,39 @@ h3 {
   margin-left: 10px;
 }
 .about_bg_1 {
-  background-image: url(../img/rooms/suitroom.png);
+  background-image: url(../img/banner/image.png);
 }
+.about_bg_2 {
+  background-image: url(../img/banner/image\ copy.png);
+}
+.about_bg_1 {
+  background-image: url(../img/banner/image.png);
+}
+.about_bg_1 {
+  background-image: url(../img/banner/image.png);
+}
+.about_bg_1 {
+  background-image: url(../img/banner/image.png);
+}
+.about_bg_1 {
+  background-image: url(../img/banner/image.png);
+}
+.about_bg_1 {
+  background-image: url(../img/banner/image.png);
+}
+.about_bg_1 {
+  background-image: url(../img/banner/image.png);
+}
+.about_bg_1 {
+  background-image: url(../img/banner/image.png);
+}
+.about_bg_1 {
+  background-image: url(../img/banner/image.png);
+}
+.about_bg_1 {
+  background-image: url(../img/banner/image.png);
+}
+
 .about_info_area {
   /* padding-left: 387px; */
   margin-top: 50px;
@@ -1094,7 +1125,7 @@ h3 {
   transform: scale(1.1);
 }
 .video_bg {
-  background-image: url(../img/video/vediobaner.png);
+  background-image: url(../img/video/image.png);
 }
 .video_area {
   padding: 250px 0;
