@@ -894,36 +894,40 @@ h3 {
   margin-left: 10px;
 }
 .about_bg_1 {
-  background-image: url(../img/banner/image.png);
+  background-image: url(../img/banner/image\ copy\ 3.png);
+  object-fit: fill;
 }
 .about_bg_2 {
   background-image: url(../img/banner/image\ copy.png);
 }
-.about_bg_1 {
+.about_bg_3 {
+  background-image: url(../img/banner/image\ copy\ 2.png);
+}
+.about_bg_4 {
   background-image: url(../img/banner/image.png);
 }
-.about_bg_1 {
+.about_bg_5 {
   background-image: url(../img/banner/image.png);
 }
-.about_bg_1 {
+.about_bg_6 {
   background-image: url(../img/banner/image.png);
 }
-.about_bg_1 {
+.about_bg_7 {
   background-image: url(../img/banner/image.png);
 }
-.about_bg_1 {
+.about_bg_8 {
   background-image: url(../img/banner/image.png);
 }
-.about_bg_1 {
+.about_bg_9 {
   background-image: url(../img/banner/image.png);
 }
-.about_bg_1 {
+.about_bg_10 {
   background-image: url(../img/banner/image.png);
 }
-.about_bg_1 {
+.about_bg_11 {
   background-image: url(../img/banner/image.png);
 }
-.about_bg_1 {
+.about_bg_12 {
   background-image: url(../img/banner/image.png);
 }
 
