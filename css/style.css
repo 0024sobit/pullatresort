@@ -1620,10 +1620,10 @@ h3 {
   color: #fff;
 }
 .breadcam_bg {
-  background-image: url(../img/rooms/image\ copy\ 4.png);
+  background-image: url(../img/rooms/AJTY4155.JPG);
 }
 .breadcam_bg_1 {
-  background-image: url(../img/rooms/image\ copy\ 4.png);
+  background-image: url(../img/rooms/HPPR0112.JPG);
 }
 .breadcam_bg_2 {
   background-image: url(../img/rooms/image\ copy\ 4.png);
@@ -4033,3 +4033,20 @@ h6 {
   margin-right: 10px;
   font-size: 12px;
 }
+        .mapsmall{
+          display: flex;
+          margin-bottom: 40px;
+          width: 100vw;
+          align-items: center;
+          justify-content: center;
+          height: 500px;
+          flex-direction: column;
+        }
+        @media (min-width: 991.98px){
+          .mapsmall{
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 60px;
+          }
+        }
+        
