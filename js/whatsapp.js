@@ -16,7 +16,7 @@ document.getElementById("availabilityForm").addEventListener("submit", function(
         "Children: " + children + "%0A" +
         "Room Type: " + roomtype;
 
-    let whatsappNumber = "9656017532"; // ← your number
+    let whatsappNumber = "9744248350"; // ← your number
 
     let whatsappURL = "https://wa.me/" + whatsappNumber + "?text=" + message;
 
