@@ -528,24 +528,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                 <input id="checkout" placeholder=" dd/mm/yy">
                             </div>
                             <div class="col-xl-6">
-                               <p>Adults :</p>
-                                <select class="form-select wide" id="adults" class="">
-                                    <option data-display="Adult">1</option>
-                                    <option value="1">2</option>
-                                    <option value="2">3</option>
-                                    <option value="3">4</option>
-                                </select>
+                                <p>Adults :</p>
+                                <input type="number" id="adults" class="form-control" min="1" max="10" value="1">
                             </div>
+
                             <div class="col-xl-6">
                                 <p>Kids :</p>
-                                <select class="form-select wide" id="children" class="">
-                                    <option data-display="Children">1</option>
-                                    <option value="1">2</option>
-                                    <option value="2">3</option>
-                                    <option value="3">4</option>
-                                </select>
+                                <input type="number" id="children" class="form-control" min="0" max="10" value="0">
                             </div>
-                            <div class="col-xl-12"><br>
+                            <div class="col-xl-12 mb-20px"><br>
                                 <p>Select Room Type :</p>
                                 <select class="form-select wide" id="roomtype" class="">
                                     <option data-display="Room type">Room type</option>
