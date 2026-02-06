@@ -1,13 +1,12 @@
 User-agent: *
 Allow: /
 
-# Block unnecessary or duplicate pages
+# Block unnecessary or private folders
 Disallow: /admin/
 Disallow: /login/
 Disallow: /cgi-bin/
 Disallow: /tmp/
 Disallow: /search
-Disallow: /*?*
 
 # Sitemap location
-Sitemap: https://pullatsuites.com/sitemap.xml 
+Sitemap: https://pullatsuites.com/sitemap.xml
